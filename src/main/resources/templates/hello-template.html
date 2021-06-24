@@ -1,0 +1,8 @@
+<html xmlns:th="http://www.thymeleaf.org"> <!--html을 막 바꾸는 것-->
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>
+<!--thymeleaf의 장점은 파일 자체를 copy absolute path를 하면 경로를 완전히
+읽어서 파일을 염. 파일을 서버 없이 열어봐도 껍데기를 볼 수 있다. 근데 이게 템플
+릿 엔진으로 동자갛면 hello! empty는 치환-->
+</body>
+</html>
