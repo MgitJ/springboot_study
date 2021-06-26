@@ -4,7 +4,7 @@ public class Member {
 
     private Long id;
     private String name;
-    private String password9;
+    private String password10;
 
     public Long getId() {
         return id;
